@@ -13,6 +13,34 @@
       margin-right: auto;
       max-width: 633px;
     }
+    .grid-2-small-1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .firstphoto {
+        width: calc(100% / 3 * 2 - -2rem - -2.99px);
+      }
+    }
+    .grid-filinfo {
+      width: calc(100% / 3 - 2.3rem - 0.01px);
+    }
+    .titrefilinto {
+      position: relative;
+      overflow: hidden;
+      font-size: 2.5rem;
+      border: 0;
+      text-align: center;
+      margin: 0;
+    }
+    .titrefilinto-main span {
+      padding: 0 1rem;
+    }
+    .titrefilinto-main ul {
+      margin-bottom: 0;
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
   }
 }
 
@@ -77,6 +105,45 @@
     .container {
       max-width: 966px;
       width: 100%;
+    }
+    .content-infos h2 {
+      font-size: 2rem;
+      padding: 1rem 3rem;
+      line-height: 4.2rem;
+    }
+    .maincontainer {
+      padding-top: 2rem;
+    }
+    .grid-2-small-1 {
+      border: 0;
+      .firstphoto {
+        position: relative;
+      }
+    }
+    .grid-filinfo {
+      max-width: 300px;
+    }
+    .filinfo-all {
+      position: relative;
+      display: block;
+      border: 1px solid #cccccc;
+      border-top: none;
+      margin-bottom: 3rem;
+    }
+    .titrefilinto {
+      margin: -1.3rem 0 1.5rem;
+      padding: 0;
+    }
+    .titrefilinto-main {
+      display: inline;
+      font-size: 2.5rem;
+      line-height: initial;
+      padding: 0;
+    }
+    .filinfo-all ul {
+      border: 0;
+      margin: 0 1rem;
+      overflow: hidden;
     }
   }
 }
@@ -180,4 +247,37 @@ body {
 }
 section {
   display: block;
+}
+article {
+  display: block;
+}
+.firstphoto {
+  position: relative;
+}
+img {
+  height: auto;
+  border-style: none;
+  vertical-align: middle;
+}
+.content-infos {
+  position: relative;
+  margin: -3rem 1.5rem 0;
+  background-color: #fff;
+}
+.imgoldwoman {
+  position: relative;
+}
+.titrefilinto {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  border-top: 1px solid #c4c4c4;
+  text-align: center;
+  padding: 2rem 0;
+  margin: 0 1.65rem;
+}
+.titrefilinto-main ul {
+  margin-bottom: 0;
+}
+.li {
+  display: list-item;
 }
